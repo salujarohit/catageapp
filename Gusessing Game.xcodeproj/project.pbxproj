@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F641531DDF31880039EF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F641521DDF31880039EF25 /* AppDelegate.swift */; };
+		F9F641551DDF31880039EF25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F641541DDF31880039EF25 /* ViewController.swift */; };
+		F9F641581DDF31880039EF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F641561DDF31880039EF25 /* Main.storyboard */; };
+		F9F6415A1DDF31880039EF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F641591DDF31880039EF25 /* Assets.xcassets */; };
+		F9F6415D1DDF31880039EF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F6415B1DDF31880039EF25 /* LaunchScreen.storyboard */; };
+		F9F641681DDF31880039EF25 /* Gusessing_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F641671DDF31880039EF25 /* Gusessing_GameTests.swift */; };
+		F9F641731DDF31880039EF25 /* Gusessing_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F641721DDF31880039EF25 /* Gusessing_GameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F641641DDF31880039EF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F641471DDF31880039EF25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F6414E1DDF31880039EF25;
+			remoteInfo = "Gusessing Game";
+		};
+		F9F6416F1DDF31880039EF25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F641471DDF31880039EF25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F6414E1DDF31880039EF25;
+			remoteInfo = "Gusessing Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F6414F1DDF31880039EF25 /* Gusessing Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gusessing Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F641521DDF31880039EF25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F641541DDF31880039EF25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9F641571DDF31880039EF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F641591DDF31880039EF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F6415C1DDF31880039EF25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F6415E1DDF31880039EF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F641631DDF31880039EF25 /* Gusessing GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gusessing GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F641671DDF31880039EF25 /* Gusessing_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gusessing_GameTests.swift; sourceTree = "<group>"; };
+		F9F641691DDF31880039EF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F6416E1DDF31880039EF25 /* Gusessing GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gusessing GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F641721DDF31880039EF25 /* Gusessing_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gusessing_GameUITests.swift; sourceTree = "<group>"; };
+		F9F641741DDF31880039EF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F6414C1DDF31880039EF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F641601DDF31880039EF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6416B1DDF31880039EF25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F641461DDF31880039EF25 = {
+			isa = PBXGroup;
+			children = (
+				F9F641511DDF31880039EF25 /* Gusessing Game */,
+				F9F641661DDF31880039EF25 /* Gusessing GameTests */,
+				F9F641711DDF31880039EF25 /* Gusessing GameUITests */,
+				F9F641501DDF31880039EF25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F641501DDF31880039EF25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6414F1DDF31880039EF25 /* Gusessing Game.app */,
+				F9F641631DDF31880039EF25 /* Gusessing GameTests.xctest */,
+				F9F6416E1DDF31880039EF25 /* Gusessing GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F641511DDF31880039EF25 /* Gusessing Game */ = {
+			isa = PBXGroup;
+			children = (
+				F9F641521DDF31880039EF25 /* AppDelegate.swift */,
+				F9F641541DDF31880039EF25 /* ViewController.swift */,
+				F9F641561DDF31880039EF25 /* Main.storyboard */,
+				F9F641591DDF31880039EF25 /* Assets.xcassets */,
+				F9F6415B1DDF31880039EF25 /* LaunchScreen.storyboard */,
+				F9F6415E1DDF31880039EF25 /* Info.plist */,
+			);
+			path = "Gusessing Game";
+			sourceTree = "<group>";
+		};
+		F9F641661DDF31880039EF25 /* Gusessing GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F641671DDF31880039EF25 /* Gusessing_GameTests.swift */,
+				F9F641691DDF31880039EF25 /* Info.plist */,
+			);
+			path = "Gusessing GameTests";
+			sourceTree = "<group>";
+		};
+		F9F641711DDF31880039EF25 /* Gusessing GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F641721DDF31880039EF25 /* Gusessing_GameUITests.swift */,
+				F9F641741DDF31880039EF25 /* Info.plist */,
+			);
+			path = "Gusessing GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F6414E1DDF31880039EF25 /* Gusessing Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F641771DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing Game" */;
+			buildPhases = (
+				F9F6414B1DDF31880039EF25 /* Sources */,
+				F9F6414C1DDF31880039EF25 /* Frameworks */,
+				F9F6414D1DDF31880039EF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gusessing Game";
+			productName = "Gusessing Game";
+			productReference = F9F6414F1DDF31880039EF25 /* Gusessing Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F641621DDF31880039EF25 /* Gusessing GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F6417A1DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing GameTests" */;
+			buildPhases = (
+				F9F6415F1DDF31880039EF25 /* Sources */,
+				F9F641601DDF31880039EF25 /* Frameworks */,
+				F9F641611DDF31880039EF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F641651DDF31880039EF25 /* PBXTargetDependency */,
+			);
+			name = "Gusessing GameTests";
+			productName = "Gusessing GameTests";
+			productReference = F9F641631DDF31880039EF25 /* Gusessing GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F6416D1DDF31880039EF25 /* Gusessing GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F6417D1DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing GameUITests" */;
+			buildPhases = (
+				F9F6416A1DDF31880039EF25 /* Sources */,
+				F9F6416B1DDF31880039EF25 /* Frameworks */,
+				F9F6416C1DDF31880039EF25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F641701DDF31880039EF25 /* PBXTargetDependency */,
+			);
+			name = "Gusessing GameUITests";
+			productName = "Gusessing GameUITests";
+			productReference = F9F6416E1DDF31880039EF25 /* Gusessing GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F641471DDF31880039EF25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rohit Saluja";
+				TargetAttributes = {
+					F9F6414E1DDF31880039EF25 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F9F641621DDF31880039EF25 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F9F6414E1DDF31880039EF25;
+					};
+					F9F6416D1DDF31880039EF25 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F9F6414E1DDF31880039EF25;
+					};
+				};
+			};
+			buildConfigurationList = F9F6414A1DDF31880039EF25 /* Build configuration list for PBXProject "Gusessing Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F641461DDF31880039EF25;
+			productRefGroup = F9F641501DDF31880039EF25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F6414E1DDF31880039EF25 /* Gusessing Game */,
+				F9F641621DDF31880039EF25 /* Gusessing GameTests */,
+				F9F6416D1DDF31880039EF25 /* Gusessing GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F6414D1DDF31880039EF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F6415D1DDF31880039EF25 /* LaunchScreen.storyboard in Resources */,
+				F9F6415A1DDF31880039EF25 /* Assets.xcassets in Resources */,
+				F9F641581DDF31880039EF25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F641611DDF31880039EF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6416C1DDF31880039EF25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F6414B1DDF31880039EF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F641551DDF31880039EF25 /* ViewController.swift in Sources */,
+				F9F641531DDF31880039EF25 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6415F1DDF31880039EF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F641681DDF31880039EF25 /* Gusessing_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F6416A1DDF31880039EF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F641731DDF31880039EF25 /* Gusessing_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F641651DDF31880039EF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F6414E1DDF31880039EF25 /* Gusessing Game */;
+			targetProxy = F9F641641DDF31880039EF25 /* PBXContainerItemProxy */;
+		};
+		F9F641701DDF31880039EF25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F6414E1DDF31880039EF25 /* Gusessing Game */;
+			targetProxy = F9F6416F1DDF31880039EF25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F641561DDF31880039EF25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F641571DDF31880039EF25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F6415B1DDF31880039EF25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F6415C1DDF31880039EF25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F641751DDF31880039EF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F641761DDF31880039EF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F641781DDF31880039EF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gusessing Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9F641791DDF31880039EF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gusessing Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9F6417B1DDF31880039EF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gusessing GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gusessing Game.app/Gusessing Game";
+			};
+			name = Debug;
+		};
+		F9F6417C1DDF31880039EF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gusessing GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gusessing Game.app/Gusessing Game";
+			};
+			name = Release;
+		};
+		F9F6417E1DDF31880039EF25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gusessing GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gusessing Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F9F6417F1DDF31880039EF25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gusessing GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "saluja.Gusessing-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gusessing Game";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F6414A1DDF31880039EF25 /* Build configuration list for PBXProject "Gusessing Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F641751DDF31880039EF25 /* Debug */,
+				F9F641761DDF31880039EF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F641771DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F641781DDF31880039EF25 /* Debug */,
+				F9F641791DDF31880039EF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9F6417A1DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F6417B1DDF31880039EF25 /* Debug */,
+				F9F6417C1DDF31880039EF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9F6417D1DDF31880039EF25 /* Build configuration list for PBXNativeTarget "Gusessing GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F6417E1DDF31880039EF25 /* Debug */,
+				F9F6417F1DDF31880039EF25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F641471DDF31880039EF25 /* Project object */;
+}
