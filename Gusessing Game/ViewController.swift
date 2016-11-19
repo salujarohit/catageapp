@@ -20,8 +20,7 @@ class ViewController: UIViewController {
         
         let diceRoll = String(arc4random_uniform(11))
         
-        if diceRoll == ""
-        
+        if diceRoll == " "
         {
             result.text = "Enter a Value"
         }
